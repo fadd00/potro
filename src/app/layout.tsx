@@ -15,8 +15,31 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Andhika Hutama - Full Stack Developer",
   description: "Portfolio of Andhika Hutama - Full Stack Developer specializing in web development, game development, and modern technologies.",
+  keywords: "Andhika Hutama, Full Stack Developer, Web Developer, Game Developer, Next.js, Laravel, React, TypeScript, PHP, MySQL, Godot, GameSeed, IT Support, Freelance Developer, Indonesia",
+  authors: [{ name: "Andhika Hutama" }],
+  creator: "Andhika Hutama",
   verification: {
     google: "_Dz0FjWvJxkW_Dj3budrOn-VTXkYrFTp5Setl_KwpEU",
+  },
+  openGraph: {
+    title: "Andhika Hutama - Full Stack Developer",
+    description: "Portfolio of Andhika Hutama - Full Stack Developer specializing in web development, game development, and modern technologies.",
+    type: "website",
+    locale: "en_US",
+    siteName: "Andhika Hutama Portfolio",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Andhika Hutama - Full Stack Developer",
+    description: "Portfolio of Andhika Hutama - Full Stack Developer specializing in web development, game development, and modern technologies.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
 };
 
