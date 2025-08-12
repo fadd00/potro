@@ -11,10 +11,10 @@ export default function Contact() {
             <div className="space-y-8">
               <div>
                 <h3 className="text-xl font-semibold text-rose-400 mb-4">
-                  Let's work together
+                  Let&apos;s work together
                 </h3>
                 <p className="text-gray-300 leading-relaxed">
-                  I'm always interested in new opportunities and exciting projects. 
+                  I&apos;m always interested in new opportunities and exciting projects. 
                   Whether you have a project in mind or just want to chat about 
                   technology, feel free to reach out!
                 </p>

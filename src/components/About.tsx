@@ -10,13 +10,13 @@ export default function About() {
           <div className="text-center max-w-4xl mx-auto">
             <div className="space-y-6">
               <p className="text-gray-300 text-lg md:text-xl leading-relaxed">
-                Hi! I'm a passionate developer who loves creating innovative solutions 
+                Hi! I&apos;m a passionate developer who loves creating innovative solutions 
                 and bringing ideas to life through code. I specialize in modern web 
                 technologies and enjoy working on challenging projects.
               </p>
               
               <p className="text-gray-300 text-lg md:text-xl leading-relaxed">
-                When I'm not coding, you can find me exploring new technologies, 
+                When I&apos;m not coding, you can find me exploring new technologies, 
                 contributing to open source projects, or sharing knowledge with 
                 the developer community.
               </p>
