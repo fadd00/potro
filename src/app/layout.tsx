@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Andhika Hutama - Full Stack Developer",
   description: "Portfolio of Andhika Hutama - Full Stack Developer specializing in web development, game development, and modern technologies.",
+  verification: {
+    google: "_Dz0FjWvJxkW_Dj3budrOn-VTXkYrFTp5Setl_KwpEU",
+  },
 };
 
 export default function RootLayout({
