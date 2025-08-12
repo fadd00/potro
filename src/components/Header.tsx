@@ -1,9 +1,37 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  useEffect(() => {
+    const controlNavbar = () => {
+      if (typeof window !== 'undefined') { 
+        const currentScrollY = window.scrollY;
+        
+        // Navbar visible ketika di top (scroll Y < 10) atau scroll ke atas
+        if (currentScrollY < 10 || currentScrollY < lastScrollY) {
+          setIsVisible(true);
+        } else {
+          setIsVisible(false);
+          setIsMenuOpen(false); // Tutup mobile menu saat navbar hide
+        }
+        
+        setLastScrollY(currentScrollY);
+      }
+    };
+
+    if (typeof window !== 'undefined') {
+      window.addEventListener('scroll', controlNavbar);
+      
+      return () => {
+        window.removeEventListener('scroll', controlNavbar);
+      };
+    }
+  }, [lastScrollY]);
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -14,7 +42,9 @@ export default function Header() {
   };
 
   return (
-    <header className="fixed top-0 w-full bg-gray-900/80 backdrop-blur-sm z-50 border-b border-gray-800">
+    <header className={`fixed top-0 w-full bg-gray-900/80 backdrop-blur-sm z-50 border-b border-gray-800 transition-transform duration-300 ${
+      isVisible ? 'translate-y-0' : '-translate-y-full'
+    }`}>
       <nav className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <h1 className="text-xl font-bold text-rose-400">Portfolio</h1>

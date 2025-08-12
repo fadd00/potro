@@ -18,16 +18,16 @@ export default function Hero() {
   return (
     <section className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 flex items-center justify-center px-4">
       <div className="text-center max-w-4xl mx-auto">
-        <div className="mb-8">
+        {/* <div className="mb-8">
           <div className="w-32 h-32 mx-auto mb-6 bg-gradient-to-br from-rose-400 to-pink-600 rounded-full flex items-center justify-center">
             <div className="w-28 h-28 bg-gray-800 rounded-full flex items-center justify-center">
               <span className="text-4xl">👋</span>
             </div>
           </div>
-        </div>
+        </div> */}
         
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-          Hi, I'm <span className="text-rose-400">Dika</span>
+          Hi, I'm <span className="text-rose-400">Andhika</span>
         </h1>
         
         <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">

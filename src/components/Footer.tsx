@@ -5,13 +5,13 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <p className="text-gray-400 text-center md:text-left">
-              © 2024 Dika's Portfolio. Built with ❤️ using Next.js & Tailwind CSS
+              © 2025 Andhika Hutama. Built with ❤️ using Next.js & Tailwind CSS
             </p>
           </div>
           
           <div className="flex space-x-6">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/fadd00"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-rose-400 transition-colors"
@@ -19,7 +19,7 @@ export default function Footer() {
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://id.linkedin.com/in/andhika-hutama-9181b8283"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-rose-400 transition-colors"
@@ -27,12 +27,12 @@ export default function Footer() {
               LinkedIn
             </a>
             <a
-              href="https://twitter.com/yourusername"
+              href="https://www.instagram.com/dhikaarch/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-rose-400 transition-colors"
             >
-              Twitter
+              Instagram
             </a>
           </div>
         </div>

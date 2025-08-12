@@ -7,22 +7,22 @@ export default function About() {
             About <span className="text-rose-400">Me</span>
           </h2>
           
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="text-center max-w-4xl mx-auto">
             <div className="space-y-6">
-              <p className="text-gray-300 text-lg leading-relaxed">
+              <p className="text-gray-300 text-lg md:text-xl leading-relaxed">
                 Hi! I'm a passionate developer who loves creating innovative solutions 
                 and bringing ideas to life through code. I specialize in modern web 
                 technologies and enjoy working on challenging projects.
               </p>
               
-              <p className="text-gray-300 text-lg leading-relaxed">
+              <p className="text-gray-300 text-lg md:text-xl leading-relaxed">
                 When I'm not coding, you can find me exploring new technologies, 
                 contributing to open source projects, or sharing knowledge with 
                 the developer community.
               </p>
 
-              <div className="flex flex-wrap gap-3 mt-8">
-                {['React', 'Next.js', 'TypeScript', 'Node.js', 'Tailwind CSS', 'MongoDB'].map((skill) => (
+              <div className="flex flex-wrap gap-3 mt-8 justify-center">
+                {['React', 'Next.js', 'TypeScript', 'Node.js', 'Tailwind CSS', 'SQL', 'MySQL', 'PHP', 'Laravel', 'Firebase', 'Godot', 'C', 'C#'].map((skill) => (
                   <span 
                     key={skill}
                     className="px-3 py-1 bg-rose-400/10 text-rose-400 rounded-full text-sm border border-rose-400/20"
@@ -30,14 +30,6 @@ export default function About() {
                     {skill}
                   </span>
                 ))}
-              </div>
-            </div>
-            
-            <div className="flex justify-center">
-              <div className="w-64 h-64 bg-gradient-to-br from-rose-400 to-pink-600 rounded-full flex items-center justify-center">
-                <div className="w-60 h-60 bg-gray-800 rounded-full flex items-center justify-center">
-                  <span className="text-6xl">👨‍💻</span>
-                </div>
               </div>
             </div>
           </div>

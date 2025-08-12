@@ -28,10 +28,10 @@ export default function Contact() {
                   <div>
                     <p className="text-gray-400 text-sm">Email</p>
                     <a 
-                      href="mailto:your.email@example.com" 
+                      href="mailto:andhikahutama9@gmail.com" 
                       className="text-gray-300 hover:text-rose-400 transition-colors"
                     >
-                      your.email@example.com
+                      andhikahutama9@gmail.com
                     </a>
                   </div>
                 </div>
@@ -46,7 +46,7 @@ export default function Contact() {
                       href="tel:+1234567890" 
                       className="text-gray-300 hover:text-rose-400 transition-colors"
                     >
-                      +62 123 456 7890
+                      +62 823 1018 0884
                     </a>
                   </div>
                 </div>
@@ -64,7 +64,7 @@ export default function Contact() {
               
               <div className="flex space-x-4 pt-4">
                 <a
-                  href="https://github.com/yourusername"
+                  href="https://github.com/fadd00"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-gray-700 hover:bg-rose-400 rounded-lg flex items-center justify-center transition-colors group"
@@ -72,7 +72,7 @@ export default function Contact() {
                   <span className="text-gray-300 group-hover:text-gray-900">🐙</span>
                 </a>
                 <a
-                  href="https://linkedin.com/in/yourusername"
+                  href="https://id.linkedin.com/in/andhika-hutama-9181b8283"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-gray-700 hover:bg-rose-400 rounded-lg flex items-center justify-center transition-colors group"
@@ -80,12 +80,12 @@ export default function Contact() {
                   <span className="text-gray-300 group-hover:text-gray-900">💼</span>
                 </a>
                 <a
-                  href="https://twitter.com/yourusername"
+                  href="https://www.instagram.com/dhikaarch/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-gray-700 hover:bg-rose-400 rounded-lg flex items-center justify-center transition-colors group"
                 >
-                  <span className="text-gray-300 group-hover:text-gray-900">🐦</span>
+                  <span className="text-gray-300 group-hover:text-gray-900">�</span>
                 </a>
               </div>
             </div>

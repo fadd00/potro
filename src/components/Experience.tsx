@@ -1,22 +1,16 @@
 export default function Experience() {
   const experiences = [
     {
-      title: "Senior Frontend Developer",
-      company: "Tech Company",
-      period: "2022 - Present",
-      description: "Led development of responsive web applications using React and Next.js. Collaborated with cross-functional teams to deliver high-quality products.",
+      title: "IT Support",
+      company: "Elysian Elang Perkasa",
+      period: "April 2025 - Present",
+      description: "Providing technical support and maintaining IT infrastructure. Troubleshooting hardware and software issues, managing network systems, and ensuring smooth operations.",
     },
     {
-      title: "Full Stack Developer",
-      company: "Digital Agency",
-      period: "2020 - 2022",
-      description: "Developed end-to-end web solutions using modern technologies. Worked on various client projects from small businesses to enterprise applications.",
-    },
-    {
-      title: "Junior Developer",
-      company: "Startup Inc",
-      period: "2019 - 2020",
-      description: "Started my journey in web development. Learned modern frameworks and contributed to building scalable web applications.",
+      title: "Freelance Full Stack Developer",
+      company: "Freelance",
+      period: "2023 - Present",
+      description: "Developing end-to-end web applications and games for various clients. Working with modern technologies including Laravel, Next.js, Godot, and database management systems.",
     },
   ];
 

@@ -1,36 +1,52 @@
 export default function Projects() {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with admin dashboard, payment integration, and real-time inventory management.",
-      technologies: ["Next.js", "TypeScript", "MongoDB", "Stripe"],
-      liveUrl: "https://your-ecommerce-project.com",
-      githubUrl: "https://github.com/yourusername/ecommerce-project",
-      image: "🛍️"
+      title: "Portfolio for Ares",
+      description: "A responsive portfolio website built with native HTML, CSS, and JavaScript. Clean and modern design showcasing projects and skills.",
+      technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+      liveUrl: "#",
+      githubUrl: "https://github.com/fadd00/portfolio-website",
+      image: "�"
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, team collaboration features, and progress tracking.",
-      technologies: ["React", "Node.js", "Socket.io", "PostgreSQL"],
-      liveUrl: "https://your-task-app.com",
-      githubUrl: "https://github.com/yourusername/task-management",
-      image: "📋"
+      title: "Alfheimr: The Tree of Life",
+      description: "A fantasy adventure game submitted for GameSeed 2024. Built using Godot Engine with GDScript for immersive gameplay experience.",
+      technologies: ["Godot", "GDScript", "Game Development", "2D Graphics"],
+      liveUrl: "https://andhikahutama.itch.io/alfheimr-the-tree-of-life",
+      githubUrl: "#",
+      image: "🌳"
     },
     {
-      title: "Weather Dashboard",
-      description: "A responsive weather application with location-based forecasts, interactive maps, and weather alerts.",
-      technologies: ["Vue.js", "API Integration", "Chart.js", "PWA"],
-      liveUrl: "https://your-weather-app.com",
-      githubUrl: "https://github.com/yourusername/weather-dashboard",
-      image: "🌤️"
+      title: "5 Hari Lagi?!",
+      description: "A game submission for GameSeed 2025 developed by Gedagedi Studio. Created using Godot Engine with engaging gameplay mechanics.",
+      technologies: ["Godot", "GDScript", "Game Development", "Team Project"],
+      liveUrl: "https://gedagedi-studio.itch.io/34-gedagedi-studio-student-5-hari-lagi",
+      githubUrl: "#",
+      image: "🎮"
     },
     {
-      title: "Portfolio Website",
-      description: "A modern, responsive portfolio website showcasing projects and skills with smooth animations and dark theme.",
-      technologies: ["Next.js", "Tailwind CSS", "Framer Motion", "TypeScript"],
-      liveUrl: "https://your-portfolio.com",
-      githubUrl: "https://github.com/yourusername/portfolio",
-      image: "💼"
+      title: "ExionPW.com",
+      description: "A comprehensive website for an MMORPG game featuring player statistics, guild management, and game information. Built with Laravel and MySQL.",
+      technologies: ["Laravel", "MySQL", "PHP", "Web Development"],
+      liveUrl: "#",
+      githubUrl: "#",
+      image: "⚔️"
+    },
+    {
+      title: "Game Website Platform",
+      description: "A modern gaming website platform built with Next.js and Prisma for database management. Features user authentication and game data management.",
+      technologies: ["Next.js", "Prisma", "TypeScript", "Database"],
+      liveUrl: "#",
+      githubUrl: "https://github.com/fadd00/STQA.git",
+      image: "�"
+    },
+    {
+      title: "Travel Admin System",
+      description: "A comprehensive travel administration system built with .NET Framework for managing bookings, customers, and travel packages.",
+      technologies: [".NET Framework", "C#", "Database", "Admin Panel"],
+      liveUrl: "#",
+      githubUrl: "https://github.com/fadd00/Travel.git",
+      image: "✈️"
     }
   ];
 
@@ -42,7 +58,7 @@ export default function Projects() {
             My <span className="text-rose-400">Projects</span>
           </h2>
           
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project, index) => (
               <div 
                 key={index}
@@ -89,6 +105,18 @@ export default function Projects() {
                 </div>
               </div>
             ))}
+          </div>
+          
+          <div className="text-center mt-12">
+            <a
+              href="https://github.com/fadd00"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-rose-500 hover:bg-rose-600 text-white px-6 py-3 rounded-lg transition-colors font-medium"
+            >
+              <span>🐙</span>
+              View More Projects on GitHub
+            </a>
           </div>
         </div>
       </div>
