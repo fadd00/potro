@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://andhu.tech
+
+# Sitemaps
+Sitemap: https://andhu.tech/sitemap.xml
