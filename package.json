@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@libsql/client": "^0.15.15",
     "@react-email/render": "^1.2.3",
+    "elysia": "^1.4.5",
     "next": "15.4.6",
     "next-sitemap": "^4.2.3",
     "react": "19.1.0",

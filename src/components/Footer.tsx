@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <p className="text-gray-400 text-center md:text-left">
-              © 2025 Andhika Hutama. Built with ❤️ using Next.js & Tailwind CSS
+              © 2025 Andhika Hutama. Built with ❤️ using Next.js & ElysiaJS
             </p>
           </div>
           
