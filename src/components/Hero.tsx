@@ -1,5 +1,8 @@
 'use client';
 
+import Image from 'next/image';
+import profilePic from '@/images/andhika-hutama.jpeg';
+
 export default function Hero() {
   const scrollToContact = () => {
     const element = document.getElementById('contact');
@@ -18,21 +21,25 @@ export default function Hero() {
   return (
     <section className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 flex items-center justify-center px-4">
       <div className="text-center max-w-4xl mx-auto">
-        {/* <div className="mb-8">
-          <div className="w-32 h-32 mx-auto mb-6 bg-gradient-to-br from-rose-400 to-pink-600 rounded-full flex items-center justify-center">
-            <div className="w-28 h-28 bg-gray-800 rounded-full flex items-center justify-center">
-              <span className="text-4xl">👋</span>
-            </div>
+        <div className="mb-8">
+          <div className="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-rose-400/50 shadow-lg">
+            <Image
+              src={profilePic}
+              alt="Andhika Hutama"
+              width={128}
+              height={128}
+              placeholder="blur"
+              className="object-cover w-full h-full"
+            />
           </div>
-        </div> */}
+        </div>
         
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
           Hi, I&apos;m <span className="text-rose-400">Andhika</span>
         </h1>
         
         <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
-          A passionate <span className="text-rose-400 font-semibold">Full Stack Developer</span> who loves creating 
-          innovative solutions and bringing ideas to life through code.
+          Another developer who turns <span className="text-rose-400 font-semibold">caffeine into code</span>, and occasionally into new, exciting bugs.
         </p>
         
         <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto">
