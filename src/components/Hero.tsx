@@ -19,15 +19,15 @@ export default function Hero() {
   };
 
   return (
-    <section className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 flex items-center justify-center px-4">
+    <section className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 flex items-center justify-center px-4 pt-24">
       <div className="text-center max-w-4xl mx-auto">
         <div className="mb-8">
-          <div className="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-rose-400/50 shadow-lg">
+          <div className="w-48 h-48 mx-auto rounded-full overflow-hidden border-4 border-rose-400/50 shadow-lg">
             <Image
               src={profilePic}
               alt="Andhika Hutama"
-              width={128}
-              height={128}
+              width={192}
+              height={192}
               placeholder="blur"
               className="object-cover w-full h-full"
             />
