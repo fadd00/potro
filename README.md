@@ -1,6 +1,5 @@
 <img width="1287" height="627" alt="Screenshot_21-Sep_01-07-02_27132" src="https://github.com/user-attachments/assets/7e58a199-1005-4a15-8d75-6afd747252e2" />
 
-
 # My Portfolio :3
 
 Hiii!~ I kinda just threw this portfolio together 'cause I was super bored, y'know? XD If you wanna use this as a template or whatever, go for it! I'll drop the instructions down below > = <
@@ -84,6 +83,34 @@ Sooo, here's all the epic stuff I used to build this thingy:
     ```
 
     Now open up [http://localhost:3000](http://localhost:3000) in your browser to see the magic happen!
+
+## Let's Go Live! (Deploying Your Site) ✨
+
+Okay, so you got it runnin' on your computer, but now you wanna show it to the world, right?! >:3 To get a real link that anyone can click, you gotta **deploy** it! The easiest way is with **Vercel**, 'cause they, like, literally made Next.js, lol.
+
+1.  **Yeet Your Code to GitHub**
+
+    First, you gotta push your project to a Git provider like [GitHub](https://github.com/). Vercel needs to see your code to build it! If you cloned my repo, make your own new repo for it.
+
+2.  **Vercel Time!**
+
+    -   Go sign up for a [Vercel](https://vercel.com/) account. You can just use your GitHub account, it's super easy. UwU
+    -   Once you're in, click **"Add New... > Project"**.
+    -   Find your new GitHub repo and click **"Import"**.
+
+3.  **Plug in Your Secrets!**
+
+    -   Vercel is smart and will probably figure out all the build settings on its own.
+    -   The most important part is the **"Environment Variables"** section. You gotta add the same secrets from your `.env.local` file here.
+        -   `TURSO_DATABASE_URL`
+        -   `TURSO_AUTH_TOKEN`
+        -   `RESEND_API_KEY`
+    -   Don't skip this, or your guestbook and contact form will be totally broken! >.<
+
+4.  **SMASH THAT DEPLOY BUTTON!**
+
+    -   Just click the **"Deploy"** button and watch the magic happen! ✨
+    -   Vercel will build your site and give you a super cool link like `your-project-name.vercel.app`. Now you can share it with everyone and show off your epic portfolio! XD
 
 ## So, Like, What's It For? :P
 
