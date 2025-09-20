@@ -11,8 +11,8 @@ jadi ini apa aja yang di pake buat porto nya
 - **TypeScript**: Superset JavaScript yang menambahkan pengetikan statis.
 - **Tailwind CSS**: Kerangka kerja CSS yang mengutamakan utilitas untuk desain yang cepat.
 - **Elysia**: Kerangka kerja backend untuk membuat API.
-- **Turso**: Database yang kompatibel dengan libSQL untuk menyimpan data buku tamu.
-- **Resend**: Layanan untuk mengirim email.
+- **Turso**: Digunakan sebagai database untuk menyimpan data buku tamu (guestbook) dan menghitung jumlah pengunjung.
+- **Resend**: Digunakan untuk menangani pengiriman email dari formulir kontak yang ada di portofolio.
 
 ## Cara Menggunakan
 
