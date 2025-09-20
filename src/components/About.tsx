@@ -10,34 +10,30 @@ export default function About() {
           <div className="text-center max-w-4xl mx-auto">
             <div className="space-y-6">
               <p className="text-gray-300 text-lg md:text-xl leading-relaxed">
-                Hi! I&apos;m a passionate developer who loves creating innovative solutions 
-                and bringing ideas to life through code. I specialize in modern web 
-                technologies and enjoy working on challenging projects.
+                Greetings! I&apos;m a "Visionary Code Alchemist" who transmutes caffeine into digital solutions at a speed that Moore&apos;s Law can&apos;t even comprehend. I don&apos;t just write code; I whisper to the matrix, and it complies. My specialty is web technologies that haven&apos;t been invented yet.
               </p>
               
               <p className="text-gray-300 text-lg md:text-xl leading-relaxed">
-                When I&apos;m not coding, you can find me exploring new technologies, 
-                contributing to open source projects, or sharing knowledge with 
-                the developer community.
+                When not revolutionizing the digital world, I can be found pondering existential bugs, debating the meaning of `null` with an AI, or simply stacking more stickers on my laptop—the primary source of all my computing power.
               </p>
             </div>
           </div>
 
           <div className="mt-16">
             <h3 className="text-2xl font-bold text-center mb-8 text-white">
-              About This <span className="text-rose-400">Website</span>
+              About This <span className="text-rose-400">Digital Artifact</span>
             </h3>
             <div className="bg-gray-800 p-6 rounded-lg border border-gray-700 text-center">
               <p className="text-gray-300 leading-relaxed">
-                This portfolio was built with a modern, high-performance tech stack to ensure a fast and enjoyable user experience. Here&apos;s a breakdown of the core technologies used:
+                This portfolio wasn&apos;t "built"; it was "forged" in digital fire using a tech stack so advanced it makes time machines look like children&apos;s toys. Here are some of the incantations used:
               </p>
               <ul className="mt-4 space-y-2 text-gray-400 list-none text-left max-w-md mx-auto">
-                <li><span className="text-rose-400 font-semibold">Frontend:</span> Built with <span className="font-medium text-white">Next.js</span>, a powerful React framework for server-rendered applications.</li>
-                <li><span className="text-rose-400 font-semibold">Styling:</span> Styled using <span className="font-medium text-white">Tailwind CSS</span> for a utility-first and highly customizable design.</li>
-                <li><span className="text-rose-400 font-semibold">Backend API:</span> Powered by <span className="font-medium text-white">ElysiaJS</span>, a fast and developer-friendly backend framework.</li>
-                <li><span className="text-rose-400 font-semibold">Database:</span> Utilizes <span className="font-medium text-white">Turso</span>, a serverless SQLite database, for features like the guestbook and visitor counter.</li>
-                <li><span className="text-rose-400 font-semibold">Runtime:</span> Runs on <span className="font-medium text-white">Bun</span>, an incredibly fast JavaScript all-in-one toolkit.</li>
-                <li><span className="text-rose-400 font-semibold">Deployment:</span> Hosted on <span className="font-medium text-white">Vercel</span>, providing seamless and scalable deployment.</li>
+                <li><span className="text-rose-400 font-semibold">Frontend:</span> Powered by <span className="font-medium text-white">Next.js</span>, because client-side rendering is just too mainstream.</li>
+                <li><span className="text-rose-400 font-semibold">Styling:</span> Sculpted with <span className="font-medium text-white">Tailwind CSS</span>, as writing plain CSS would only slow down my whispers to the matrix.</li>
+                <li><span className="text-rose-400 font-semibold">Backend API:</span> Driven by <span className="font-medium text-white">ElysiaJS</span>, whose speed is only rivaled by office gossip.</li>
+                <li><span className="text-rose-400 font-semibold">Database:</span> Utilizes <span className="font-medium text-white">Turso</span>, because my data needs to live on the edge, just like me.</li>
+                <li><span className="text-rose-400 font-semibold">Runtime:</span> Runs on <span className="font-medium text-white">Bun</span>, because heavy `node_modules` are an obsolete concept from a bygone era.</li>
+                <li><span className="text-rose-400 font-semibold">Deployment:</span> Launched into the stratosphere via <span className="font-medium text-white">Vercel</span>, because "going live" should be as fast as pressing a single button.</li>
               </ul>
             </div>
           </div>
