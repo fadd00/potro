@@ -105,6 +105,5 @@ Here's a quick rundown of every React component I used:
 -   **`Guestbook.tsx`**: Lets random people on the internet leave messages... what could go wrong? XD
 -   **`Header.tsx`**: The navigation bar at the top with links to all the sections.
 -   **`Hero.tsx`**: The big intro section at the top of the page with a huge title and stuff.
--   **`MusicPlayer.tsx`**: A component to play music and show what song is currently playing.
 -   **`Projects.tsx`**: A gallery of all the projects I've worked on! >w<
 -   **`VisitorCounter.tsx`**: Shows the total count of visitors to the website. So many people! O.O
