@@ -1,3 +1,6 @@
+<img width="1287" height="627" alt="Screenshot_21-Sep_01-07-02_27132" src="https://github.com/user-attachments/assets/7e58a199-1005-4a15-8d75-6afd747252e2" />
+
+
 # My Portfolio :3
 
 Hiii!~ I kinda just threw this portfolio together 'cause I was super bored, y'know? XD If you wanna use this as a template or whatever, go for it! I'll drop the instructions down below > = <
