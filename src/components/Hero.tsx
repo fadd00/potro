@@ -48,17 +48,24 @@ export default function Hero() {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button
+          <button 
+            onClick={scrollToContact}
+            className="bg-rose-500 text-white font-bold py-3 px-8 rounded-full hover:bg-rose-600 transition-all duration-300 shadow-lg transform hover:scale-105"
+          >
+            touch here 0.0
+          </button>
+          <a 
+            href="/cv/placeholder.pdf"
+            download="Andhika-Hutama-CV.pdf"
+            className="bg-gray-700 text-white font-bold py-3 px-8 rounded-full hover:bg-gray-600 transition-all duration-300 shadow-lg transform hover:scale-105 text-center"
+          >
+            CV :3
+           </a>
+          <button 
             onClick={scrollToProjects}
-            className="bg-rose-500 hover:bg-rose-600 text-white px-8 py-3 rounded-lg transition-colors font-medium text-lg"
+            className="bg-gray-700 text-white font-bold py-3 px-8 rounded-full hover:bg-gray-600 transition-all duration-300 shadow-lg transform hover:scale-105"
           >
             View My Work
-          </button>
-          <button
-            onClick={scrollToContact}
-            className="border border-rose-400 text-rose-400 hover:bg-rose-400 hover:text-gray-900 px-8 py-3 rounded-lg transition-colors font-medium text-lg"
-          >
-            Get In Touch
           </button>
         </div>
         

@@ -40,6 +40,24 @@ export default function Guestbook() {
       setError('Please fill out both name and message.');
       return;
     }
+
+    const forbiddenWords = [
+      // English
+      'nigger', 'nigga',
+      // Indonesian
+      'kontol', 'memek', 'anjing', 'babi', 'bangsat', 
+      'bajingan', 'asu', 'goblok', 'tolol', 'pantek'
+    ];
+
+    const lowerCaseMessage = message.toLowerCase();
+    const lowerCaseName = name.toLowerCase();
+
+    for (const word of forbiddenWords) {
+      if (lowerCaseMessage.includes(word) || lowerCaseName.includes(word)) {
+        setError('Your message or name contains a forbidden word. Please be nice!');
+        return;
+      }
+    }
     
     setSubmitting(true);
     setError(null);
