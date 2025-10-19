@@ -1,6 +1,12 @@
 export default function Experience() {
   const experiences = [
     {
+      title: "Backend Developer",
+      company: "Charlotte Essence",
+      period: "September 2025 - Present",
+      description: "Handling backend development for an Indonesian sugar import company, focusing on systems and services for charlotttecocosugar.com.",
+    },
+    {
       title: "IT Support",
       company: "Elysian Elang Perkasa",
       period: "April 2025 - Present",

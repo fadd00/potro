@@ -1,12 +1,20 @@
 export default function Projects() {
   const projects = [
     {
+      title: "Charlotte Essence Website",
+      description: "A professional company profile website for Charlotte Essence, an Indonesian sugar importer. Built from scratch using native PHP to showcase their products and business.",
+      technologies: ["PHP", "HTML", "CSS", "Company Profile"],
+      liveUrl: "https://charlotttecocosugar.com",
+      githubUrl: "#",
+      image: "🥥"
+    },
+    {
       title: "Portfolio for Ares",
       description: "A responsive portfolio website built with native HTML, CSS, and JavaScript. Clean and modern design showcasing projects and skills.",
       technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
       liveUrl: "#",
       githubUrl: "https://github.com/fadd00/portfolio-website",
-      image: "�"
+      image: "🧑‍💻"
     },
     {
       title: "Alfheimr: The Tree of Life",
@@ -38,7 +46,7 @@ export default function Projects() {
       technologies: ["Next.js", "Prisma", "TypeScript", "Database"],
       liveUrl: "#",
       githubUrl: "https://github.com/fadd00/STQA.git",
-      image: "�"
+      image: "🕹️"
     },
     {
       title: "Travel Admin System",
