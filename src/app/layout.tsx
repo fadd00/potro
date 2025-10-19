@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Andhika Hutama - Full Stack Developer",
   description: "Portfolio of Andhika Hutama - Full Stack Developer specializing in web development, game development, and modern technologies.",
-  keywords: "Andhika Hutama, Full Stack Developer, Web Developer, Game Developer, Next.js, Laravel, React, TypeScript, PHP, MySQL, Godot, GameSeed, IT Support, Freelance Developer, Indonesia",
+  keywords: "Andhika Hutama, Full Stack Developer, Web Developer, Game Developer, IT Support, Freelance, Backend Developer, Frontend Developer, Next.js, React, TypeScript, JavaScript, ElysiaJS, Bun, Turso, Laravel, PHP, SQL, MySQL, Prisma, .NET Framework, C#, C, Godot, GDScript, GameSeed, Tailwind CSS, Vercel, Portfolio, charlotte essence, Alfheimr, 5 Hari Lagi?!, ExionPW.com, Indonesia",
   authors: [{ name: "Andhika Hutama" }],
   creator: "Andhika Hutama",
   verification: {
@@ -40,6 +40,9 @@ export const metadata: Metadata = {
       index: true,
       follow: true,
     },
+  },
+  icons: {
+    icon: "/favicon.ico",
   },
 };
 
