@@ -4,7 +4,7 @@ export default function Projects() {
       title: "Charlotte Essence Website",
       description: "A professional company profile website for Charlotte Essence, an Indonesian sugar importer. Built from scratch using native PHP to showcase their products and business.",
       technologies: ["PHP", "HTML", "CSS", "Company Profile"],
-      liveUrl: "https://charlotttecocosugar.com",
+      liveUrl: "https://charlottecocosugar.com",
       githubUrl: "#",
       image: "🥥"
     },
