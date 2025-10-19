@@ -4,7 +4,7 @@ export default function Experience() {
       title: "Backend Developer",
       company: "Charlotte Essence",
       period: "September 2025 - Present",
-      description: "Handling backend development for an Indonesian sugar import company, focusing on systems and services for charlotttecocosugar.com.",
+      description: "Handling backend development for an Indonesian sugar import company, focusing on systems and services for charlottecocosugar.com.",
     },
     {
       title: "IT Support",
