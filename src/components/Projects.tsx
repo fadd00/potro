@@ -65,10 +65,10 @@ export default function Projects() {
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-white">
             My <span className="text-rose-400">Projects</span>
           </h2>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project, index) => (
-              <div 
+              <div
                 key={index}
                 className="bg-gray-800 rounded-lg overflow-hidden border border-gray-700 hover:border-rose-400/50 transition-all duration-300 hover:transform hover:scale-105"
               >
@@ -77,13 +77,13 @@ export default function Projects() {
                   <h3 className="text-xl font-semibold text-rose-400 mb-3">
                     {project.title}
                   </h3>
-                  <p className="text-gray-300 mb-4 leading-relaxed">
+                  <p className="text-gray-200 mb-4 leading-relaxed">
                     {project.description}
                   </p>
-                  
+
                   <div className="flex flex-wrap gap-2 mb-6">
                     {project.technologies.map((tech, techIndex) => (
-                      <span 
+                      <span
                         key={techIndex}
                         className="px-2 py-1 bg-rose-400/10 text-rose-400 rounded text-sm border border-rose-400/20"
                       >
@@ -91,13 +91,13 @@ export default function Projects() {
                       </span>
                     ))}
                   </div>
-                  
+
                   <div className="flex gap-4">
                     <a
                       href={project.liveUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex-1 bg-rose-500 hover:bg-rose-600 text-white px-4 py-2 rounded-lg transition-colors text-center text-sm font-medium"
+                      className="flex-1 bg-rose-600 hover:bg-rose-700 text-white px-4 py-2 rounded-lg transition-colors text-center text-sm font-medium"
                     >
                       Live Demo
                     </a>
@@ -114,13 +114,13 @@ export default function Projects() {
               </div>
             ))}
           </div>
-          
+
           <div className="text-center mt-12">
             <a
               href="https://github.com/fadd00"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-rose-500 hover:bg-rose-600 text-white px-6 py-3 rounded-lg transition-colors font-medium"
+              className="inline-flex items-center gap-2 bg-rose-600 hover:bg-rose-700 text-white px-6 py-3 rounded-lg transition-colors font-medium"
             >
               <span>🐙</span>
               View More Projects on GitHub

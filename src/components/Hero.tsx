@@ -33,42 +33,42 @@ export default function Hero() {
             />
           </div>
         </div>
-        
+
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
           Hi, I&apos;m <span className="text-rose-400">Andhika</span>
         </h1>
-        
-        <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
+
+        <p className="text-xl md:text-2xl text-gray-200 mb-8 leading-relaxed">
           Another developer who turns <span className="text-rose-400 font-semibold">caffeine into code</span>, and occasionally into new, exciting bugs.
         </p>
-        
-        <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto">
-          I specialize in modern web technologies and enjoy building user-friendly applications 
+
+        <p className="text-lg text-gray-200 mb-12 max-w-2xl mx-auto">
+          I specialize in modern web technologies and enjoy building user-friendly applications
           that solve real-world problems.
         </p>
-        
+
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button 
+          <button
             onClick={scrollToContact}
-            className="bg-rose-500 text-white font-bold py-3 px-8 rounded-full hover:bg-rose-600 transition-all duration-300 shadow-lg transform hover:scale-105"
+            className="bg-rose-600 text-white font-bold py-3 px-8 rounded-full hover:bg-rose-700 transition-all duration-300 shadow-lg transform hover:scale-105"
           >
             touch here 0.0
           </button>
-          <a 
-            href="/cv/placeholder.pdf"
+          <a
+            href="/cv/Andhika-Hutama-CV.pdf"
             download="Andhika-Hutama-CV.pdf"
             className="bg-gray-700 text-white font-bold py-3 px-8 rounded-full hover:bg-gray-600 transition-all duration-300 shadow-lg transform hover:scale-105 text-center"
           >
             CV :3
            </a>
-          <button 
+          <button
             onClick={scrollToProjects}
             className="bg-gray-700 text-white font-bold py-3 px-8 rounded-full hover:bg-gray-600 transition-all duration-300 shadow-lg transform hover:scale-105"
           >
             View My Work
           </button>
         </div>
-        
+
         <div className="mt-16 animate-bounce">
           <svg className="w-6 h-6 mx-auto text-rose-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />

@@ -95,50 +95,50 @@ export default function Guestbook() {
           <div className="bg-gray-800 p-6 rounded-lg border border-gray-700 mb-8">
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
-                <label htmlFor="guest-name" className="block text-gray-300 mb-2">Name</label>
+                <label htmlFor="guest-name" className="block text-gray-200 mb-2">Name</label>
                 <input
                   id="guest-name"
                   type="text"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   placeholder="Your name"
-                  className="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-gray-300 focus:border-rose-400 focus:outline-none"
+                  className="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-gray-200 focus:border-rose-400 focus:outline-none"
                   required
                 />
               </div>
               <div>
-                <label htmlFor="guest-message" className="block text-gray-300 mb-2">Message</label>
+                <label htmlFor="guest-message" className="block text-gray-200 mb-2">Message</label>
                 <textarea
                   id="guest-message"
                   rows={3}
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   placeholder="Leave a message..."
-                  className="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-gray-300 focus:border-rose-400 focus:outline-none resize-none"
+                  className="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-gray-200 focus:border-rose-400 focus:outline-none resize-none"
                   required
                 ></textarea>
               </div>
               <button
                 type="submit"
                 disabled={submitting}
-                className="w-full bg-rose-500 hover:bg-rose-600 text-white px-6 py-3 rounded-lg transition-colors font-medium disabled:bg-gray-500 disabled:cursor-not-allowed"
+                className="w-full bg-rose-600 hover:bg-rose-700 text-white px-6 py-3 rounded-lg transition-colors font-medium disabled:bg-gray-500 disabled:cursor-not-allowed"
               >
                 {submitting ? 'Signing...' : 'Sign Guestbook'}
               </button>
-              {error && <p className="text-red-500 mt-2">{error}</p>}
+              {error && <p className="text-red-400 mt-2">{error}</p>}
             </form>
           </div>
 
           <div className="space-y-4">
             {loading ? (
-              <p className="text-center text-gray-400">Loading entries...</p>
+              <p className="text-center text-gray-200">Loading entries...</p>
             ) : entries.length === 0 ? (
-              <p className="text-center text-gray-400">No entries yet. Be the first to sign!</p>
+              <p className="text-center text-gray-200">No entries yet. Be the first to sign!</p>
             ) : (
               entries.map((entry) => (
                 <div key={entry.id} className="bg-gray-800 p-4 rounded-lg border border-gray-700">
-                  <p className="text-gray-300 mb-2">{entry.message}</p>
-                  <div className="flex justify-between items-center text-sm text-gray-500">
+                  <p className="text-gray-200 mb-2">{entry.message}</p>
+                  <div className="flex justify-between items-center text-sm text-gray-200">
                     <span className="font-semibold text-rose-400">{entry.name}</span>
                     <span>{new Date(entry.createdAt).toLocaleDateString()}</span>
                   </div>
