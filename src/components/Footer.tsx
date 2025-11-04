@@ -4,17 +4,17 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <p className="text-gray-400 text-center md:text-left">
+            <p className="text-gray-200 text-center md:text-left">
               © 2025 Andhika Hutama. Built with ❤️ using Next.js & ElysiaJS
             </p>
           </div>
-          
+
           <div className="flex space-x-6">
             <a
               href="https://github.com/fadd00"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-rose-400 transition-colors"
+              className="text-gray-200 hover:text-rose-400 transition-colors"
             >
               GitHub
             </a>
@@ -22,7 +22,7 @@ export default function Footer() {
               href="https://id.linkedin.com/in/andhika-hutama-9181b8283"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-rose-400 transition-colors"
+              className="text-gray-200 hover:text-rose-400 transition-colors"
             >
               LinkedIn
             </a>
@@ -30,7 +30,7 @@ export default function Footer() {
               href="https://www.instagram.com/dhikaarch/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-rose-400 transition-colors"
+              className="text-gray-200 hover:text-rose-400 transition-colors"
             >
               Instagram
             </a>

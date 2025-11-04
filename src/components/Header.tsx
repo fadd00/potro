@@ -9,9 +9,9 @@ export default function Header() {
 
   useEffect(() => {
     const controlNavbar = () => {
-      if (typeof window !== 'undefined') { 
+      if (typeof window !== 'undefined') {
         const currentScrollY = window.scrollY;
-        
+
         // Navbar visible ketika di top (scroll Y < 10) atau scroll ke atas
         if (currentScrollY < 10 || currentScrollY < lastScrollY) {
           setIsVisible(true);
@@ -19,14 +19,14 @@ export default function Header() {
           setIsVisible(false);
           setIsMenuOpen(false); // Tutup mobile menu saat navbar hide
         }
-        
+
         setLastScrollY(currentScrollY);
       }
     };
 
     if (typeof window !== 'undefined') {
       window.addEventListener('scroll', controlNavbar);
-      
+
       return () => {
         window.removeEventListener('scroll', controlNavbar);
       };
@@ -48,37 +48,37 @@ export default function Header() {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <h1 className="text-xl font-bold text-rose-400">Portfolio</h1>
-          
+
           {/* Desktop Menu */}
           <ul className="hidden md:flex space-x-8">
             <li>
-              <button 
+              <button
                 onClick={() => scrollToSection('about')}
-                className="text-gray-300 hover:text-rose-400 transition-colors"
+                className="text-gray-200 hover:text-rose-400 transition-colors"
               >
                 About
               </button>
             </li>
             <li>
-              <button 
+              <button
                 onClick={() => scrollToSection('experience')}
-                className="text-gray-300 hover:text-rose-400 transition-colors"
+                className="text-gray-200 hover:text-rose-400 transition-colors"
               >
                 Experience
               </button>
             </li>
             <li>
-              <button 
+              <button
                 onClick={() => scrollToSection('projects')}
-                className="text-gray-300 hover:text-rose-400 transition-colors"
+                className="text-gray-200 hover:text-rose-400 transition-colors"
               >
                 Projects
               </button>
             </li>
             <li>
-              <button 
+              <button
                 onClick={() => scrollToSection('contact')}
-                className="text-gray-300 hover:text-rose-400 transition-colors"
+                className="text-gray-200 hover:text-rose-400 transition-colors"
               >
                 Contact
               </button>
@@ -87,8 +87,9 @@ export default function Header() {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-gray-300 hover:text-rose-400 transition-colors"
+            className="md:hidden text-gray-200 hover:text-rose-400 transition-colors"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-label="Open menu"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
@@ -100,33 +101,33 @@ export default function Header() {
         {isMenuOpen && (
           <ul className="md:hidden mt-4 space-y-4 bg-gray-800/90 p-4 rounded-lg">
             <li>
-              <button 
+              <button
                 onClick={() => scrollToSection('about')}
-                className="block w-full text-left text-gray-300 hover:text-rose-400 transition-colors"
+                className="block w-full text-left text-gray-200 hover:text-rose-400 transition-colors"
               >
                 About
               </button>
             </li>
             <li>
-              <button 
+              <button
                 onClick={() => scrollToSection('experience')}
-                className="block w-full text-left text-gray-300 hover:text-rose-400 transition-colors"
+                className="block w-full text-left text-gray-200 hover:text-rose-400 transition-colors"
               >
                 Experience
               </button>
             </li>
             <li>
-              <button 
+              <button
                 onClick={() => scrollToSection('projects')}
-                className="block w-full text-left text-gray-300 hover:text-rose-400 transition-colors"
+                className="block w-full text-left text-gray-200 hover:text-rose-400 transition-colors"
               >
                 Projects
               </button>
             </li>
             <li>
-              <button 
+              <button
                 onClick={() => scrollToSection('contact')}
-                className="block w-full text-left text-gray-300 hover:text-rose-400 transition-colors"
+                className="block w-full text-left text-gray-200 hover:text-rose-400 transition-colors"
               >
                 Contact
               </button>
