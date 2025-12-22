@@ -42,19 +42,18 @@ export default function Header() {
   };
 
   return (
-    <header className={`fixed top-0 w-full bg-gray-900/80 backdrop-blur-sm z-50 border-b border-gray-800 transition-transform duration-300 ${
-      isVisible ? 'translate-y-0' : '-translate-y-full'
-    }`}>
+    <header className={`fixed top-0 w-full bg-gray-900/80 backdrop-blur-sm z-50 border-b border-gray-800 transition-transform duration-300 ${isVisible ? 'translate-y-0' : '-translate-y-full'
+      }`}>
       <nav className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
-          <h1 className="text-xl font-bold text-rose-400">Portfolio</h1>
+          <h1 className="text-xl font-bold text-cyan-400">Portfolio</h1>
 
           {/* Desktop Menu */}
           <ul className="hidden md:flex space-x-8">
             <li>
               <button
                 onClick={() => scrollToSection('about')}
-                className="text-gray-200 hover:text-rose-400 transition-colors"
+                className="text-gray-200 hover:text-cyan-400 transition-colors"
               >
                 About
               </button>
@@ -62,7 +61,7 @@ export default function Header() {
             <li>
               <button
                 onClick={() => scrollToSection('experience')}
-                className="text-gray-200 hover:text-rose-400 transition-colors"
+                className="text-gray-200 hover:text-cyan-400 transition-colors"
               >
                 Experience
               </button>
@@ -70,7 +69,7 @@ export default function Header() {
             <li>
               <button
                 onClick={() => scrollToSection('projects')}
-                className="text-gray-200 hover:text-rose-400 transition-colors"
+                className="text-gray-200 hover:text-cyan-400 transition-colors"
               >
                 Projects
               </button>
@@ -78,7 +77,7 @@ export default function Header() {
             <li>
               <button
                 onClick={() => scrollToSection('contact')}
-                className="text-gray-200 hover:text-rose-400 transition-colors"
+                className="text-gray-200 hover:text-cyan-400 transition-colors"
               >
                 Contact
               </button>
@@ -87,7 +86,7 @@ export default function Header() {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-gray-200 hover:text-rose-400 transition-colors"
+            className="md:hidden text-gray-200 hover:text-cyan-400 transition-colors"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Open menu"
           >
@@ -103,7 +102,7 @@ export default function Header() {
             <li>
               <button
                 onClick={() => scrollToSection('about')}
-                className="block w-full text-left text-gray-200 hover:text-rose-400 transition-colors"
+                className="block w-full text-left text-gray-200 hover:text-cyan-400 transition-colors"
               >
                 About
               </button>
@@ -111,7 +110,7 @@ export default function Header() {
             <li>
               <button
                 onClick={() => scrollToSection('experience')}
-                className="block w-full text-left text-gray-200 hover:text-rose-400 transition-colors"
+                className="block w-full text-left text-gray-200 hover:text-cyan-400 transition-colors"
               >
                 Experience
               </button>
@@ -119,7 +118,7 @@ export default function Header() {
             <li>
               <button
                 onClick={() => scrollToSection('projects')}
-                className="block w-full text-left text-gray-200 hover:text-rose-400 transition-colors"
+                className="block w-full text-left text-gray-200 hover:text-cyan-400 transition-colors"
               >
                 Projects
               </button>
@@ -127,7 +126,7 @@ export default function Header() {
             <li>
               <button
                 onClick={() => scrollToSection('contact')}
-                className="block w-full text-left text-gray-200 hover:text-rose-400 transition-colors"
+                className="block w-full text-left text-gray-200 hover:text-cyan-400 transition-colors"
               >
                 Contact
               </button>

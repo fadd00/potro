@@ -22,7 +22,7 @@ export default function Hero() {
     <section className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 flex items-center justify-center px-4 pt-24">
       <div className="text-center max-w-4xl mx-auto">
         <div className="mb-8">
-          <div className="w-48 h-48 mx-auto rounded-full overflow-hidden border-4 border-rose-400/50 shadow-lg">
+          <div className="w-48 h-48 mx-auto rounded-full overflow-hidden border-4 border-cyan-400/50 shadow-lg">
             <Image
               src={profilePic}
               alt="Andhika Hutama"
@@ -35,11 +35,11 @@ export default function Hero() {
         </div>
 
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-          Hi, I&apos;m <span className="text-rose-400">Andhika</span>
+          Hi, I&apos;m <span className="text-cyan-400">Andhika</span>
         </h1>
 
         <p className="text-xl md:text-2xl text-gray-200 mb-8 leading-relaxed">
-          Another developer who turns <span className="text-rose-400 font-semibold">caffeine into code</span>, and occasionally into new, exciting bugs.
+          Another developer who turns <span className="text-cyan-400 font-semibold">caffeine into code</span>, and occasionally into new, exciting bugs.
         </p>
 
         <p className="text-lg text-gray-200 mb-12 max-w-2xl mx-auto">
@@ -50,7 +50,7 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button
             onClick={scrollToContact}
-            className="bg-rose-600 text-white font-bold py-3 px-8 rounded-full hover:bg-rose-700 transition-all duration-300 shadow-lg transform hover:scale-105"
+            className="bg-cyan-600 text-white font-bold py-3 px-8 rounded-full hover:bg-cyan-700 transition-all duration-300 shadow-lg transform hover:scale-105"
           >
             touch here 0.0
           </button>
@@ -60,7 +60,7 @@ export default function Hero() {
             className="bg-gray-700 text-white font-bold py-3 px-8 rounded-full hover:bg-gray-600 transition-all duration-300 shadow-lg transform hover:scale-105 text-center"
           >
             CV :3
-           </a>
+          </a>
           <button
             onClick={scrollToProjects}
             className="bg-gray-700 text-white font-bold py-3 px-8 rounded-full hover:bg-gray-600 transition-all duration-300 shadow-lg transform hover:scale-105"
@@ -70,7 +70,7 @@ export default function Hero() {
         </div>
 
         <div className="mt-16 animate-bounce">
-          <svg className="w-6 h-6 mx-auto text-rose-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg className="w-6 h-6 mx-auto text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
           </svg>
         </div>

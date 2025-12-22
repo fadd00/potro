@@ -14,7 +14,7 @@ export default function Footer() {
               href="https://github.com/fadd00"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-200 hover:text-rose-400 transition-colors"
+              className="text-gray-200 hover:text-cyan-400 transition-colors"
             >
               GitHub
             </a>
@@ -22,7 +22,7 @@ export default function Footer() {
               href="https://id.linkedin.com/in/andhika-hutama-9181b8283"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-200 hover:text-rose-400 transition-colors"
+              className="text-gray-200 hover:text-cyan-400 transition-colors"
             >
               LinkedIn
             </a>
@@ -30,7 +30,7 @@ export default function Footer() {
               href="https://www.instagram.com/dhikaarch/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-200 hover:text-rose-400 transition-colors"
+              className="text-gray-200 hover:text-cyan-400 transition-colors"
             >
               Instagram
             </a>

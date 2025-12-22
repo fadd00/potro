@@ -25,18 +25,18 @@ export default function Experience() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-white">
-            My <span className="text-rose-400">Experience</span>
+            My <span className="text-cyan-400">Experience</span>
           </h2>
           
           <div className="space-y-8">
             {experiences.map((exp, index) => (
               <div 
                 key={index}
-                className="bg-gray-900 p-6 rounded-lg border border-gray-700 hover:border-rose-400/50 transition-colors"
+                className="bg-gray-900 p-6 rounded-lg border border-gray-700 hover:border-cyan-400/50 transition-colors"
               >
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                   <div>
-                    <h3 className="text-xl font-semibold text-rose-400 mb-1">
+                    <h3 className="text-xl font-semibold text-cyan-400 mb-1">
                       {exp.title}
                     </h3>
                     <p className="text-gray-300 font-medium">{exp.company}</p>

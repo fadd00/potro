@@ -88,7 +88,7 @@ export default function Guestbook() {
     <section id="guestbook" className="py-20 bg-gray-900">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-white">
-          Guest<span className="text-rose-400">book</span>
+          Guest<span className="text-cyan-400">book</span>
         </h2>
         
         <div className="max-w-2xl mx-auto">
@@ -102,7 +102,7 @@ export default function Guestbook() {
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   placeholder="Your name"
-                  className="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-gray-200 focus:border-rose-400 focus:outline-none"
+                  className="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-gray-200 focus:border-cyan-400 focus:outline-none"
                   required
                 />
               </div>
@@ -114,14 +114,14 @@ export default function Guestbook() {
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   placeholder="Leave a message..."
-                  className="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-gray-200 focus:border-rose-400 focus:outline-none resize-none"
+                  className="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-gray-200 focus:border-cyan-400 focus:outline-none resize-none"
                   required
                 ></textarea>
               </div>
               <button
                 type="submit"
                 disabled={submitting}
-                className="w-full bg-rose-600 hover:bg-rose-700 text-white px-6 py-3 rounded-lg transition-colors font-medium disabled:bg-gray-500 disabled:cursor-not-allowed"
+                className="w-full bg-cyan-600 hover:bg-cyan-700 text-white px-6 py-3 rounded-lg transition-colors font-medium disabled:bg-gray-500 disabled:cursor-not-allowed"
               >
                 {submitting ? 'Signing...' : 'Sign Guestbook'}
               </button>
@@ -139,7 +139,7 @@ export default function Guestbook() {
                 <div key={entry.id} className="bg-gray-800 p-4 rounded-lg border border-gray-700">
                   <p className="text-gray-200 mb-2">{entry.message}</p>
                   <div className="flex justify-between items-center text-sm text-gray-200">
-                    <span className="font-semibold text-rose-400">{entry.name}</span>
+                    <span className="font-semibold text-cyan-400">{entry.name}</span>
                     <span>{new Date(entry.createdAt).toLocaleDateString()}</span>
                   </div>
                 </div>
