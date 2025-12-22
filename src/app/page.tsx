@@ -8,13 +8,14 @@ import Footer from '@/components/Footer';
 import Guestbook from '@/components/Guestbook';
 import VisitorCounter from '@/components/VisitorCounter';
 
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-gray-900">
       <Header />
       <main>
         <Hero />
-        <About />  
+        <About />
         <Experience />
         <Projects />
         <Guestbook />

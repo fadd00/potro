@@ -6,13 +6,13 @@ export default function About() {
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-white">
             My <span className="text-rose-400">Story</span>
           </h2>
-          
+
           <div className="text-center max-w-4xl mx-auto">
             <div className="space-y-6">
               <p className="text-gray-300 text-lg md:text-xl leading-relaxed">
                 Konnichiwa! I&apos;m just your everyday code isekai protagonist, turning coffee into web magic faster than a shounen hero powers up. I don&apos;t just write code; I cast spells on the digital realm, and it bends to my will. My specialty is creating websites with technologies straight out of a sci-fi anime.
               </p>
-              
+
               <p className="text-gray-300 text-lg md:text-xl leading-relaxed">
                 When I&apos;m not grinding on my latest project, you can find me contemplating the philosophy of bugs, arguing with my AI waifu about the true meaning of `null`, or slapping more anime stickers on my rig—each one a power-up for my coding abilities.
               </p>
@@ -37,14 +37,14 @@ export default function About() {
               </ul>
             </div>
           </div>
-          
+
           <div className="mt-16">
             <h3 className="text-2xl font-bold text-center mb-8 text-white">
               My <span className="text-rose-400">Skill Tree</span>
             </h3>
             <div className="flex flex-wrap gap-3 justify-center">
               {['React', 'Next.js', 'TypeScript', 'Node.js', 'Tailwind CSS', 'SQL', 'MySQL', 'PHP', 'Laravel', 'Firebase', 'Godot', 'C', 'C#', 'Bun', 'ElysiaJS', 'Turso'].map((skill) => (
-                <span 
+                <span
                   key={skill}
                   className="px-3 py-1 bg-rose-400/10 text-rose-400 rounded-full text-sm border border-rose-400/20"
                 >
